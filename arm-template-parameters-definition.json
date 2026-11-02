@@ -1,1 +1,23 @@
-
+{
+  "userAccessControl": "disabled",
+  "properties": {
+    "Microsoft.DataFactory/factories/linkedServices": {
+      "properties": {
+        "typeProperties": {
+          "connectionString": {
+            "defaultValue": "/*<DefaultValue>*/"
+          }
+        }
+      }
+    },
+    "Microsoft.DataFactory/factories/pipelines": {
+      "properties": {
+        "parameters": {
+          "*": {
+            "defaultValue": "/*<DefaultValue>*/"
+          }
+        }
+      }
+    }
+  }
+}
